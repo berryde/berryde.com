@@ -1,6 +1,6 @@
 # Personal portfolio
 
-My personal portfolio website, hosted [here](https://deb1g19.github.io/). The site is built in static HTML with TailwindCSS - for an SPA such as this there is really no need for anything more complex as a larger bundle will decrease performance.
+My personal portfolio website, hosted [here](https://deb1g19.github.io/). The site is built in HTML with TailwindCSS - for a static single page site such as this there is no need for more complexity; a larger bundle will decrease performance with limited increase to user experience.
 
 Feel free to use it as a template for your own portfolio site if you like it!
 
