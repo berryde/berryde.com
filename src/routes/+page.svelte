@@ -7,7 +7,7 @@
 	import { education } from '../lib/education';
 	import { experiences } from '../lib/experience';
 	import { links } from '../lib/links';
-	import LinkedInLogo from 'phosphor-svelte/lib/LinkedInLogo';
+	import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo';
 	import GithubLogo from 'phosphor-svelte/lib/GithubLogo';
 	import EnvelopeSimple from 'phosphor-svelte/lib/EnvelopeSimple';
 </script>
@@ -20,7 +20,7 @@
 				I am a Software Engineer at<br /> Palantir Technologies, London.
 			</p>
 			<div class="flex space-x-5 mt-5 text-sky-700">
-				<a href={links.linkedin.href}><LinkedInLogo weight="fill" size={24} /></a>
+				<a href={links.linkedin.href}><LinkedinLogo weight="fill" size={24} /></a>
 				<a href={links.mail.href}><EnvelopeSimple weight="bold" size={24} /></a>
 				<a href={links.github.href}><GithubLogo weight="fill" size={24} /></a>
 			</div>
