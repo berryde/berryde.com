@@ -8,7 +8,6 @@
 	<div>
 		<h3 class="font-semibold">{education.school}</h3>
 		<h4>{education.degree}</h4>
-		<p class="text-neutral-600">{education.duration}</p>
+		<p class="text-sky-800">{education.duration}</p>
 	</div>
-	<p>{education.description}</p>
 </div>

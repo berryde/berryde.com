@@ -3,17 +3,17 @@ export type Link = {
 	icon: string;
 };
 
-export const links: Link[] = [
-	{
+export const links: Record<string, Link> = {
+	github: {
 		href: 'https:://github.com/deb1g19',
 		icon: 'logo-github'
 	},
-	{
+	linkedin: {
 		href: 'https://www.linkedin.com/in/deb1g19/',
 		icon: 'logo-linkedin'
 	},
-	{
-		href: 'mailto:06berrydan@gmail.com',
+	mail: {
+		href: 'mailto:website@berryde.com',
 		icon: 'mail'
 	}
-];
+};

@@ -2,42 +2,52 @@
 	import Card from '../lib/components/card.svelte';
 	import Education from '../lib/components/education.svelte';
 	import Experience from '../lib/components/experience.svelte';
-	import Icon from '../lib/components/icon.svelte';
 	import Jumbotron from '../lib/components/jumbotron.svelte';
 	import List from '../lib/components/list.svelte';
 	import { education } from '../lib/education';
 	import { experiences } from '../lib/experience';
 	import { links } from '../lib/links';
+	import LinkedInLogo from 'phosphor-svelte/lib/LinkedInLogo';
+	import GithubLogo from 'phosphor-svelte/lib/GithubLogo';
+	import EnvelopeSimple from 'phosphor-svelte/lib/EnvelopeSimple';
 </script>
 
-<div class="w-full min-h-screen bg-neutral-200">
-	<main class="flex flex-col max-w-5xl mx-auto space-y-2 md:space-y-3 p-2 md:p-5">
-		<Jumbotron cover="cover.png" pp="pp.png">
-			<p class="text-2xl font-bold">Dan Berry</p>
-			<p class="text-lg text-center leading-6">
-				Incoming SWE at Palantir | MEng CS<br />at University of Southampton
+<div class="w-full min-h-screen bg-sky-50 text-sky-900">
+	<main class="flex flex-col max-w-4xl mx-auto space-y-2 md:space-y-3 p-2 md:p-5">
+		<Jumbotron pp="pp.png">
+			<p class="text-2xl font-bold">👋 Hello! I'm Dan Berry.</p>
+			<p class="text-lg max-w-xs text-center leading-6 text-sky-900">
+				I am a Software Engineer at<br /> Palantir Technologies, London.
 			</p>
 			<div class="flex space-x-5 mt-5 text-sky-700">
-				{#each links as link}
-					<Icon href={link.href} name={link.icon} />
-				{/each}
+				<a href={links.linkedin.href}><LinkedInLogo weight="fill" size={24} /></a>
+				<a href={links.mail.href}><EnvelopeSimple weight="bold" size={24} /></a>
+				<a href={links.github.href}><GithubLogo weight="fill" size={24} /></a>
 			</div>
 		</Jumbotron>
 		<Card title="About">
 			<p>
-				I am a final-year MEng Computer Science student at the University of Southampton, graduating
-				July 2023. I am a full-stack developer and I enjoy crafting interactive digital experiences.
-				I am also enthusiastic about leveraging technology to enable continuous learning. I will be
-				starting my new role as a Software Engineer at Palantir Technologies in August 2022.
+				I am a full-stack software engineer and I enjoy crafting interactive digital experiences. I
+				strive to create functional, robust software without compromising on user experience. I am
+				also enthusiastic about leveraging technology to enable continuous learning.
 			</p>
 		</Card>
+		<Card title="Skills">
+			<p>
+				I love learning how to use new technologies, however, these are some of my favourite tools
+				at the moment:
+			</p>
+			<List items={['SvelteKit', 'Angular', 'TypeScript', 'React', 'Figma', 'Java']} />
+		</Card>
 		<Card title="Experience">
-			{#each experiences as experience, i}
-				<Experience {experience} />
-				{#if i < experiences.length - 1}
-					<hr />
-				{/if}
-			{/each}
+			<div class="flex flex-wrap gap-5">
+				{#each experiences as experience, i}
+					<Experience {experience} />
+					{#if i < experiences.length - 1}
+						<hr />
+					{/if}
+				{/each}
+			</div>
 		</Card>
 		<Card title="Education">
 			{#each education as edu, i}
@@ -46,9 +56,6 @@
 					<hr />
 				{/if}
 			{/each}
-		</Card>
-		<Card title="Skills">
-			<List items={['SvelteKit', 'Angular', 'Spring Boot', 'React', 'Figma']} />
 		</Card>
 	</main>
 </div>
