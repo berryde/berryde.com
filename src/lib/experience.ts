@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
 		employer: 'J.P. Morgan',
 		type: 'Internship',
 		title: 'Software Engineering Summer Intern',
-		duration: 'June 2022 - August 2022 · 3 mos',
+		duration: 'June 2022 - August 2022 · 3 months',
 		location: 'Bournemouth, UK',
 		skills: ['Front-End Development', 'TypeScript', 'Angular', 'Java', 'Spring Boot']
 	},
@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
 		employer: 'BAE Systems',
 		type: 'Internship',
 		title: 'Software Engineering Summer Intern',
-		duration: 'July 2021 - September 2021 · 3 mos',
+		duration: 'July 2021 - September 2021 · 3 months',
 		location: 'Yeovil, UK',
 		skills: [
 			'Front-End Development',
@@ -35,7 +35,7 @@ export const experiences: Experience[] = [
 		employer: 'Lumico Digital',
 		type: 'Part-time',
 		title: 'Undergraduate Software Developer',
-		duration: 'December 2020 - June 2021 · 7 mos',
+		duration: 'December 2020 - June 2021 · 7 months',
 		location: 'Hampshire, England, United Kingdom',
 		skills: [
 			'Flutter',
