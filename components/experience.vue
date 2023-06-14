@@ -10,12 +10,12 @@ defineProps<ExperienceProps>();
 
 <template>
 	<div class="flex-grow">
-		<span class=""
+		<span class="dark:text-sky-300"
 			><span class="">{{ title }}</span
 			>, {{ subtitle }}</span
 		>
 
-		<p class="font-light text-sky-800">{{ date }}</p>
-		<p class="font-light text-sky-800">{{ location }}</p>
+		<p class="font-light text-sky-800 dark:text-sky-200">{{ date }}</p>
+		<p class="font-light text-sky-800 dark:text-sky-200">{{ location }}</p>
 	</div>
 </template>
