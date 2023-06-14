@@ -1,8 +1,10 @@
 <template>
 	<div class="flex text-sky-700 w-full justify-between items-center">
-		<span
-			><span class="font-bold">berry</span
-			><span class="text-sky-700">de</span></span
+		<NuxtLink to="/"
+			><span
+				><span class="font-bold">berry</span
+				><span class="text-sky-700">de</span></span
+			></NuxtLink
 		>
 		<div class="flex space-x-3">
 			<NuxtLink

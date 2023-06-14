@@ -1,8 +1,9 @@
 ---
 title: "Rapid iteration using Stable Diffusion"
 description: "Exploring image-to-image machine learning technologies to produce high fidelity variations on an initial artistic concept."
-tags: ["Stable Diffusion", "Machine Learning", "Tutorial"]
+tags: ["Machine Learning", "Tutorial"]
 image: /img/sd-landscape.webp
+date: 2022-08-31
 ---
 
 # Rapid iteration using Stable Diffusion

@@ -1,8 +1,9 @@
 <script setup lang="ts">
-const posts = await queryContent("/blog")
-	.sort({ date: -1 }) // show latest articles first
-	.only(["image", "_path", "title", "description"])
-	.where({ _partial: false }) // exclude the Partial files
+const metadata = ["image", "_path", "title", "description", "date", "tags"];
+const posts = await queryContent<PostMetadata>("/blog")
+	.sort({ date: -1 })
+	.only(metadata)
+	.where({ _partial: false })
 	.find();
 </script>
 
