@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+	title: "Dan Berry's Blog",
+});
+
 const metadata = ["image", "_path", "title", "description", "date", "tags"];
 const posts = await queryContent<PostMetadata>("/blog")
 	.sort({ date: -1 })
@@ -8,9 +12,7 @@ const posts = await queryContent<PostMetadata>("/blog")
 </script>
 
 <template>
-	<Navbar></Navbar>
-
-	<ul class="pt-10">
+	<ul>
 		<PostPreview v-for="post in posts" :key="post.slug" :post="post">
 		</PostPreview>
 	</ul>

@@ -1,6 +1,9 @@
+<script setup>
+useSeoMeta({ title: "Dan Berry" });
+</script>
+
 <template>
-	<div class="flex flex-col space-y-4 md:space-y-8">
-		<Navbar></Navbar>
+	<div class="flex flex-col space-y-8">
 		<Jumbotron></Jumbotron>
 		<Section title="About">
 			<p>
@@ -44,14 +47,14 @@
 					title="Software Engineer"
 					subtitle="Lumico Digital"
 					date="December 2020 - June 2021 "
-					location="Fareham   , UK"
+					location="Fareham, UK"
 				></Experience>
 			</div>
 		</Section>
 		<Section title="Education">
 			<Experience
-				title="University of Southampton"
-				subtitle="MEng Computer Science"
+				title="MEng Computer Science"
+				subtitle="University of Southampton"
 				date="September 2019 - June 2023"
 				location="Southampton, UK"
 			></Experience>

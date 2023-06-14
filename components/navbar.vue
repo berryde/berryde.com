@@ -1,10 +1,10 @@
 <template>
 	<div class="flex text-sky-700 w-full justify-between items-center">
 		<NuxtLink to="/"
-			><span
-				><span class="font-bold">berry</span
-				><span class="text-sky-700">de</span></span
-			></NuxtLink
+			><div class="flex items-center space-x-1">
+				<img class="w-5 h-5 rotate-45" src="/favicon.svg" />
+				<p class="font-medium text-sky-900">Dan Berry</p>
+			</div></NuxtLink
 		>
 		<div class="flex space-x-3">
 			<NuxtLink
