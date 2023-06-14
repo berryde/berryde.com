@@ -2,7 +2,7 @@
 	<article
 		class="article prose prose-img:rounded prose-img:shadow lg:prose-lg prose-sky pt-10 prose-img:mx-auto"
 	>
-		<ContentDoc :path="`blog/post/${$route.params.post}`">
+		<ContentDoc :path="`blog/${$route.params.post}`">
 			<template #not-found>
 				<h1><Icon name="ion:telescope"></Icon> Document not found</h1>
 				<p>
