@@ -2,13 +2,13 @@
 title: "On Finishing University"
 description: "Retrospective thoughts on the value of university and the opportunities it can offer, written on my final day as a student at the University of Southampton."
 tags: ["Education", "Life"]
-image: /img/highfield-cover.png
+image: /img/highfield-cover.webp
 date: 2023-06-18
 ---
 
 # On Finishing University
 
-![Images from my final walk around leafly Highfield campus as an undergraduate](/img/highfield-campus-collage.png)
+![Images from my final walk around leafly Highfield campus as an undergraduate](/img/highfield-campus-collage.webp)
 
 On the eve of my final day as an undergraduate in Southampton, I feel compelled to look back on the past four years and ask 'Was it worth it?'. I will be leaving Southampton with approximately £59,655 of student debt and a great deal of extremely specific knowledge that would become largely redundant in the event of a major magnetic shift, extended cosmic radiation event, severe energy crisis or loss of my ability to type, to name a few events of varying probability. In addition to the monetary cost of acquiring this knowledge, I have spent four years of my life in its pursuit. I have studied Computer Science here over 8 semesters, completing 32 modules ranging from an introduction to programming suitably titled 'Programming I', to a study of the applications of Darwinian mechanisms as search algorithms. The most surprising thing is that the content I have been taught in my course is just the tip of the iceberg of knowledge I have gleaned since September 2019. Studying at Southampton has opened up to me a range of experiences that have transformed my worldview and made me into the person I am today.
 
@@ -18,4 +18,4 @@ To this end, I am so glad that I have been able to participate in events, explor
 
 With that, I must say goodbye to the leafy campus I have grown to be so fond of, the same street I have lived on for three years and most importantly the people I have met along the way. After spending four years swimming countless lengths in the pool at Jubilee Sports Center, running through meandering paths in the Common or just spending a quiet afternoon in the library, it's finally time for a change of pace and a new challenge.
 
-![More images from around the University of Southampton's Highfield campus](/img/highfield-campus-collage-2.png)
+![More images from around the University of Southampton's Highfield campus](/img/highfield-campus-collage-2.webp)
