@@ -12,8 +12,8 @@ const posts = await queryContent<PostMetadata>("/blog")
 </script>
 
 <template>
-	<ul>
+	<div class="flex flex-col space-y-5">
 		<PostPreview v-for="post in posts" :key="post.slug" :post="post">
 		</PostPreview>
-	</ul>
+	</div>
 </template>
