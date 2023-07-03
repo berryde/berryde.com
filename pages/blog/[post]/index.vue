@@ -14,7 +14,6 @@ useHead({
 			"data-input-position": "bottom",
 			"data-theme": "preferred_color_scheme",
 			"data-lang": "en",
-
 			crossorigin: "anonymous",
 			async: true,
 		},
