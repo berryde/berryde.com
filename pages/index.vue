@@ -7,15 +7,12 @@ useSeoMeta({ title: "Dan Berry" });
 		<Jumbotron></Jumbotron>
 		<Section title="About">
 			<p>
-				I am a full-stack software engineer and I enjoy crafting interactive
-				digital experiences. I strive to create functional, robust software
-				without compromising on user experience. I am also enthusiastic about
-				leveraging technology to enable continuous learning.
+				Software Engineer experienced in full-stack web development. I recently completed my MEng Computer Science master's degree at the University of Southampton, graduating with a first class honours. I am looking forward to starting a new role as a Software Engineer at Palantir Technologies in August 2022.
 			</p>
 		</Section>
 		<Section title="Skills">
 			<p>
-				I love learning how to use new technologies, however, these are some of
+				I love learning new technologies, however, these are some of
 				my favourite tools at the moment:
 			</p>
 			<List
@@ -54,9 +51,9 @@ useSeoMeta({ title: "Dan Berry" });
 		<Section title="Education">
 			<Experience
 				title="MEng Computer Science"
-				subtitle="University of Southampton"
+				subtitle="First Class Honours"
 				date="September 2019 - June 2023"
-				location="Southampton, UK"
+				location="University of Southampton"
 			></Experience>
 		</Section>
 	</div>
