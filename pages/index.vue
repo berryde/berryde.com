@@ -7,13 +7,17 @@ useSeoMeta({ title: "Dan Berry" });
 		<Jumbotron></Jumbotron>
 		<Section title="About">
 			<p>
-				Software Engineer experienced in full-stack web development. I recently completed my MEng Computer Science master's degree at the University of Southampton, graduating with a first class honours. I am looking forward to starting a new role as a Software Engineer at Palantir Technologies in August 2022.
+				Software Engineer experienced in full-stack web development. I recently
+				completed my MEng Computer Science master's degree at the University of
+				Southampton, graduating with a first class honours. I am looking forward
+				to starting a new role as a Software Engineer at Palantir Technologies
+				in August 2023.
 			</p>
 		</Section>
 		<Section title="Skills">
 			<p>
-				I love learning new technologies, however, these are some of
-				my favourite tools at the moment:
+				I love learning new technologies, however, these are some of my
+				favourite tools at the moment:
 			</p>
 			<List
 				:items="[
