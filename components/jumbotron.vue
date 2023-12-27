@@ -9,7 +9,7 @@
 		/>
 		<p class="text-2xl font-bold dark:text-sky-300">Hello! I'm Dan.</p>
 		<p class="text-lg max-w-xs text-center leading-6">
-			I am an incoming Software Engineer at<br />
+			I am a Software Engineer at<br />
 			<a href="https://www.palantir.com/uk/">Palantir Technologies</a>, London.
 		</p>
 		<div class="flex space-x-5 pt-5 text-xl text-sky-700 dark:text-sky-300">

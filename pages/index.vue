@@ -9,29 +9,33 @@ useSeoMeta({ title: "Dan Berry" });
 			<p>
 				Software Engineer experienced in full-stack web development. I recently
 				completed my MEng Computer Science master's degree at the University of
-				Southampton, graduating with a first class honours. I am looking forward
-				to starting a new role as a Software Engineer at Palantir Technologies
-				in August 2023.
+				Southampton, graduating with a first class honours.
 			</p>
 		</Section>
 		<Section title="Skills">
 			<p>
-				I love learning new technologies, however, these are some of my
-				favourite tools at the moment:
+				I am always on the lookout for new technologies to learn, however, these
+				are some of my favourite tools at the moment:
 			</p>
 			<List
 				:items="[
 					'SvelteKit',
-					'Angular',
-					'TypeScript',
 					'React',
+					'Tailwind CSS',
+					'TypeScript',
 					'Figma',
-					'Java',
+					'Angular',
 				]"
 			/>
 		</Section>
 		<Section title="Experience">
-			<div class="flex flex-wrap gap-5">
+			<div class="grid grid-cols-2 gap-5">
+				<Experience
+					title="Full-Stack Software Engineer"
+					subtitle="Palantir"
+					date="August 2023 - Present"
+					location="London, UK"
+				></Experience>
 				<Experience
 					title="Software Engineer Intern"
 					subtitle="J.P. Morgan"

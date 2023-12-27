@@ -6,7 +6,7 @@ defineProps<Props>();
 </script>
 
 <template>
-	<div>
+	<div class="flex flex-col gap-2">
 		<h2 class="text-xl font-semibold text-sky-700 dark:text-sky-300">
 			{{ title }}
 		</h2>
