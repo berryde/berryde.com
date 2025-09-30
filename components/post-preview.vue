@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { ParsedContent } from "@nuxt/content/dist/runtime/types";
+import type { BlogCollectionItem } from "@nuxt/content";
 
 interface Props {
-	post: Pick<ParsedContent, string>;
+	post: BlogCollectionItem;
 }
 defineProps<Props>();
 
-function formatDate(date: Date) {
+function formatDate(date: string) {
 	return new Date(date).toLocaleString("en", {
 		day: "numeric",
 		month: "long",
@@ -23,7 +23,7 @@ function formatTags(tags: string[]) {
 	<div class="flex items-center sm:space-x-5">
 		<img fit="cover" :src="post.image" class="rounded w-20 h-20 fit object-cover hidden sm:block" />
 		<div class="space-y-1">
-			<NuxtLink :to="post._path" class="font-bold text-aztec-800 dark:text-aztec-300 text-xl">{{ post.title }}
+			<NuxtLink :to="post.path" class="font-bold text-aztec-800 dark:text-aztec-300 text-xl">{{ post.title }}
 			</NuxtLink>
 			<p class="line-clamp-3 leading-5">{{ post.description }}</p>
 			<div class="flex flex-wrap text-aztec-800 dark:text-aztec-100 text-xs space-x-3">

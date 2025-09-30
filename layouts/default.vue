@@ -7,8 +7,8 @@ onBeforeMount(() => {
 		background: string;
 	}
 	let theme: BrowserTheme = {
-		theme: prefersDark.matches ? "#020617" : "#e0f2fe",
-		background: prefersDark.matches ? "#082f49" : "#f0f9ff",
+		theme: prefersDark.matches ? "#031211" : "#d8efe9",
+		background: prefersDark.matches ? "#031211" : "#f3faf8",
 	};
 	useHead({
 		meta: [{ name: "theme-color", content: theme.theme }],

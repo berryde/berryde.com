@@ -1,7 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "nuxt-icon"],
+	modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "@nuxt/icon"],
 	content: {},
 	app: {},
+	compatibilityDate: "2025-09-30",
 });
