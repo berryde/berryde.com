@@ -20,14 +20,12 @@ onBeforeMount(() => {
 </script>
 
 <template>
-	<div
-		class="w-full bg-sky-50 dark:bg-slate-950 text-sky-900 dark:text-sky-200"
-	>
-		<main
-			class="min-h-screen flex flex-col max-w-3xl mx-auto p-5 pb-10 space-y-10"
-		>
+	<div class="w-full bg-aztec-50 dark:bg-aztec-950 text-aztec-900 dark:text-aztec-200">
+		<main class="min-h-screen flex flex-col max-w-3xl mx-auto p-5 pb-10 space-y-10">
 			<Navbar></Navbar>
-			<div class="flex flex-col flex-grow h-full flex-shrink-0"><slot /></div>
+			<div class="flex flex-col flex-grow h-full flex-shrink-0">
+				<slot />
+			</div>
 			<Copyright></Copyright>
 		</main>
 	</div>

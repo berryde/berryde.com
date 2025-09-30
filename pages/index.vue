@@ -7,10 +7,9 @@ useSeoMeta({ title: "Dan Berry" });
 		<Jumbotron></Jumbotron>
 		<Section title="About">
 			<p>
-				I'm a Software Engineer experienced in full-stack web development. Recently, I have been working on
-				improving the developer experience of pro-code Palantir Foundry users.
-				I'm particularly interested in pushing the boundaries of the browser as a software development
-				environment.
+				I'm a Software Engineer experienced in full-stack web development. I’m currently working on artificial
+				intelligence to protect our democracies at Helsing. I'm particularly interested in front-end
+				performance, building interfaces for unconventional form factors and maximising walk-up usability.
 			</p>
 		</Section>
 		<Section title="Skills">
@@ -29,8 +28,10 @@ useSeoMeta({ title: "Dan Berry" });
 		</Section>
 		<Section title="Experience">
 			<div class="grid grid-cols-2 gap-5">
-				<Experience title="Software Engineer" subtitle="Palantir Technologies" date="August 2023 - Present"
+				<Experience title="Software Engineer" subtitle="Helsing" date="October 2025 - Present"
 					location="London, UK"></Experience>
+				<Experience title="Software Engineer" subtitle="Palantir Technologies"
+					date="August 2023 - September 2025" location="London, UK"></Experience>
 				<Experience title="Software Engineer Intern" subtitle="J.P. Morgan" date="June 2022 - August 2022"
 					location="Bournemouth, UK"></Experience>
 				<Experience title="Software Engineer Intern" subtitle="BAE Systems" date="July 2021 - September 2021"
